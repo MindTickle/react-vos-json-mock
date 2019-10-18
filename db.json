@@ -389,11 +389,11 @@
             },
             {
               "id": "1",
-              "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/2/audio/1570686269610.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzIvYXVkaW8vMTU3MDY4NjI2OTYxMC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwNzAwNjczfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=eJatlFTSoGGBWQqvBLFiNshhxp0MvrLdvefYsRZJag7MhVXDe8ytN-KaXUwqQlAyWp2rJ~AIs3MH~LINLQ4ZRXGm77Cpcnd29I-b7kXLKBGJSOhPnEC~tGDYeQZJXPNrYjfkrqAhGpYoV7ENAeXYdVtAdtfhPn6gDPoIi2XeMKw_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+              "url": "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Algorithms.mp3"
             }
           ],
           "selectedDraft": "0",
-          "status": "DRAFT_RECORDED",
+          "status": "RECORDING_PENDING",
           "assignedBy": {
             "id": 2314,
             "name": "Prashank Gupta"
@@ -401,7 +401,12 @@
           "assignedTo": {
             "id": "123",
             "name": "Ishan Saxena"
-          }
+          },
+          "submissions": [
+            {
+              "id": "0"
+            }
+          ]
         },
         {
           "id": "6",
@@ -559,16 +564,20 @@
       "id": "5",
       "contents": {
         "id": "111",
-        "src": "https://cf-ap1.mindtickle.com/benaam/1566809206147ContentSwapnaneelVishal.pptx/imagified/out_2.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMxMDMxfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=avy8eXRfXzsb-FKHmAJ0jN55yE6U0b7aqz6DgAkCKfKkb2USlGIEZw9gs1J4WMGQcfXaY71HhXcLKI5xIFJUyG09KHnbGaBJ1aq8lQaM4G6pREH2eqs-8wnRXRqd8vJA8PBuw~5J9WkFG6BB2QayHo6YPKFrH7G-F8YtenMJTHc_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+        "src": "https://placedog.net/300/133/a"
       },
       "drafts": [
         {
-          "id": "0.8150760714331227",
-          "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/3/audio/1571210373500.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzMvYXVkaW8vMTU3MTIxMDM3MzUwMC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjI0Nzc3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=f~At7BmniUFduyrAinDFRd4qlSFA4Hu3d95YG40f4BmQvkEv-fHWWIV1mG5hOOAEHJtrjEh-xMu3uk0VkWlUmWdz8qWPUtFckyOApCxSfVnVxYLpG~1PQ0RlYzOoKNlhTjEQeE4rnXzPJ29RHaEaHKvFQQSnFFZAn2XY7REpN~U_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+          "id": "0",
+          "url": "https://cf-ap2.mindtickle.com/944147212454530362/user/420462459a487e67/test_drafts_vos_cc/1/audio/1570613981750.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tLzk0NDE0NzIxMjQ1NDUzMDM2Mi91c2VyLzQyMDQ2MjQ1OWE0ODdlNjcvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDYxMzk4MTc1MC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTczMjA1OTkzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=Q0FDry2ao4n~l0jJ7mnAn3y9KD8v60LjM5KPkUYsyVquhFqXQbSkkB-Fdfr3WW6nHf2dobo17Nrrjil~2alkWIRXnWGCWspNNCwsseBTCOzyIoMIjqmzhTyHMrvKgRQB1OT1NiSghnnVCmBHrP0uGfmW6W8zd70NJLxAVDQ6qqs_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+        },
+        {
+          "id": "1",
+          "url": "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Algorithms.mp3"
         }
       ],
-      "selectedDraft": "0.8150760714331227",
-      "status": "APPROVAL_PENDING",
+      "selectedDraft": "1",
+      "status": "RECORDING_PENDING",
       "assignedBy": {
         "id": 2314,
         "name": "Prashank Gupta"
@@ -577,17 +586,19 @@
         "id": "123",
         "name": "Ishan Saxena"
       },
-      "submittedOn": 1571214246270,
-      "declinedOn": 1571035214936,
-      "reason": "sadfd"
+      "submissions": [
+        {
+          "id": "0"
+        }
+      ]
     },
     {
       "id": "6",
       "contents": {
         "id": "113",
-        "src": "https://cf-ap1.mindtickle.com/benaam/1566809206147ContentSwapnaneelVishal.pptx/imagified/out_1.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMxMDMxfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=avy8eXRfXzsb-FKHmAJ0jN55yE6U0b7aqz6DgAkCKfKkb2USlGIEZw9gs1J4WMGQcfXaY71HhXcLKI5xIFJUyG09KHnbGaBJ1aq8lQaM4G6pREH2eqs-8wnRXRqd8vJA8PBuw~5J9WkFG6BB2QayHo6YPKFrH7G-F8YtenMJTHc_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+        "src": "https://cf-ap1.mindtickle.com/benaam/1571305959491PresentationsTips.ppt/imagified/out_1.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMzIwODA1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=CG28hv8ZiC-Pgrhc5cObsSoKt0lTORS21FDCkJPSODJU8UqQ3vNDNTLQ3C65pNCjKJS7t~GEiZVdx1MzEjD6uKcPRBt4OSo6yS7L8F9O6M8BCh8r~ktBcGfDrdzm5eTj5uWojOjDs1HFiq8VDRCKhdCNzFNPNTaD2an4WqflqOA_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
-      "status": "APPROVAL_PENDING",
+      "status": "DECLINED",
       "assignedBy": {
         "id": 2314,
         "name": "Prashank Gupta"
@@ -596,8 +607,8 @@
         "id": "123",
         "name": "Ishan Saxena"
       },
-      "declinedOn": 1570982018799,
-      "reason": "asldfjdsa",
+      "declinedOn": 1571306870043,
+      "reason": "fdghjkl",
       "drafts": [
         {
           "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1571209570321.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MTIwOTU3MDMyMS53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjIzOTczfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=IHMEJVn1B4-IIjl8NPP1s9YTmj6DcdB-ALvF3x8rMHLPz4UDrQmgN2LTz41uPmsoykoCsQMiS~gtoagGRMvc0melQmnYgKHiKQ53Lb6nTABTZSZL4xW-o15CXQeW~AZEWt31bRe6hNLfM-qE2YVvpbPykhDv7mgVUup~HKfuSVk_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
@@ -609,7 +620,7 @@
       "id": "7",
       "contents": {
         "id": "114",
-        "src": "https://placedog.net/300/133/c"
+        "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_20.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
       "status": "DECLINED",
       "assignee": {
@@ -639,7 +650,7 @@
       "id": "9",
       "contents": {
         "id": "116",
-        "src": "https://placedog.net/300/133/e"
+        "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_6.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
       "status": "DECLINED",
       "declinedOn": 1568363986952,
@@ -656,7 +667,7 @@
       "id": "10",
       "contents": {
         "id": "117",
-        "src": "https://placedog.net/300/133/f"
+        "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_22.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
       "status": "APPROVED",
       "submittedOn": 1568363986952,
@@ -668,7 +679,7 @@
       "id": "11",
       "contents": {
         "id": "118",
-        "src": "https://placedog.net/300/133/g"
+        "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_23.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
       "status": "APPROVAL_PENDING",
       "submittedOn": 1568363986952,
@@ -685,7 +696,7 @@
       "id": "12",
       "contents": {
         "id": "119",
-        "src": "https://cf-ap1.mindtickle.com/benaam/1566809206147ContentSwapnaneelVishal.pptx/imagified/out_4.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMTM4MjQ4fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=c0WipTTsNcwC55l9TgwLjYWmHT~mW4nRZPdXsavq1QwraMKTx4AakWZzY1e0qTxg~3EbxuTpLWU3cpC4JWGSbzIdiV~ZutLvCayetjux6gKsyJDzhcQ5aIYXGa20a-CGlH8drT-K~kFys4NuNoxs6GyZvhpBv7nzBcm9T2ooA2g_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+        "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_12.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
       "status": "DECLINED",
       "declinedOn": 1568363986952,
