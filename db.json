@@ -58,11 +58,13 @@
       "id": "1",
       "name": "Chocolate Factory",
       "assignedBy": {
-        "name": "Willy Wonka"
+        "displayName": "Willy Wonka"
       },
       "dueDate": "21 August 2019",
-      "contextText": "<p>This slideshow is about MindTickle Glossary of Terms. Record on the two slides assigned about all the terms used. This will help new joinees to understand all the terms used in the platform and help them in understanding all the flows and stakeholders better. This will help in onboarding and getting fluent with the platform faster and begin their work.</p><p>Companies across a wide range of industries use MindTickle’s innovative capabilities for on-demand, online training, bite-sized mobile updates, gamification-based learning, coaching, and role-play to ensure world-class sales performance.</p>",
-      "instructionText": "<ol><li>Upload and record on two slides about all the terms used</li> <li>Keeps all the terms in bullet points</li> <li>Talk briefly about each of the points with an example</li> <li>Spend not more the 2 min on each slide</li> <li>Please use illustrations and relevant images in all the slides</li><li>A compelling introduction</li><li>Offer a body of evidence</li><li>Sum up with key takeaways</li></ol>",
+      "instruction": {
+        "context": "<p>This slideshow is about MindTickle Glossary of Terms. Record on the two slides assigned about all the terms used. This will help new joinees to understand all the terms used in the platform and help them in understanding all the flows and stakeholders better. This will help in onboarding and getting fluent with the platform faster and begin their work.</p><p>Companies across a wide range of industries use MindTickle’s innovative capabilities for on-demand, online training, bite-sized mobile updates, gamification-based learning, coaching, and role-play to ensure world-class sales performance.</p>",
+        "instructionSteps": "<ol><li>Upload and record on two slides about all the terms used</li> <li>Keeps all the terms in bullet points</li> <li>Talk briefly about each of the points with an example</li> <li>Spend not more the 2 min on each slide</li> <li>Please use illustrations and relevant images in all the slides</li><li>A compelling introduction</li><li>Offer a body of evidence</li><li>Sum up with key takeaways</li></ol>"
+      },
       "attachments": [
         {
           "id": 1,
@@ -89,11 +91,11 @@
           "thumbPath": "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/salted_dark_chocolate_16338_16x9.jpg"
         }
       ],
-      "status": "RECORDING_PENDING",
+      "status": "TASK_YET_TO_START",
       "declinedOn": 1568373883961,
       "reason": "hgjk",
       "type": "UPLOAD_AND_RECORD",
-      "subtasks": {
+      "subTasks": {
         "data": [
           {
             "id": 1
@@ -113,7 +115,7 @@
       "name": "MindTickle Glossary of Terms",
       "assetType": "uploadAndRecord",
       "assignedBy": {
-        "name": "Willy Wonka"
+        "displayName": "Willy Wonka"
       },
       "dueDate": "21 August 2019",
       "contextText": "<p>This slideshow is about MindTickle Glossary of Terms. Record on the two slides assigned about all the terms used. This will help new joinees to understand all the terms used in the platform and help them in understanding all the flows and stakeholders better. This will help in onboarding and getting fluent with the platform faster and begin their work.</p><p>Companies across a wide range of industries use MindTickle’s innovative capabilities for on-demand, online training, bite-sized mobile updates, gamification-based learning, coaching, and role-play to ensure world-class sales performance.</p>",
@@ -144,7 +146,7 @@
           "thumbPath": "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/salted_dark_chocolate_16338_16x9.jpg"
         }
       ],
-      "status": "DECLINED",
+      "status": "TASK_DECLINED",
       "declinedOn": 1568370814480,
       "reason": "sdaf"
     },
@@ -153,7 +155,7 @@
       "name": "MindTickle Glossary of Terms",
       "assetType": "uploadAndRecord",
       "assignedBy": {
-        "name": "Willy Wonka"
+        "displayName": "Willy Wonka"
       },
       "dueDate": "21 August 2019",
       "contextText": "<p>This slideshow is about MindTickle Glossary of Terms. Record on the two slides assigned about all the terms used. This will help new joinees to understand all the terms used in the platform and help them in understanding all the flows and stakeholders better. This will help in onboarding and getting fluent with the platform faster and begin their work.</p><p>Companies across a wide range of industries use MindTickle’s innovative capabilities for on-demand, online training, bite-sized mobile updates, gamification-based learning, coaching, and role-play to ensure world-class sales performance.</p>",
@@ -184,7 +186,7 @@
           "thumbPath": "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/salted_dark_chocolate_16338_16x9.jpg"
         }
       ],
-      "status": "RECORDING_PENDING",
+      "status": "TASK_YET_TO_START",
       "declinedOn": 1568369826108,
       "reason": "LOL"
     },
@@ -193,7 +195,7 @@
       "name": "MindTickle Glossary of Terms",
       "assetType": "recordOnly",
       "assignedBy": {
-        "name": "Kakul Chandra"
+        "displayName": "Kakul Chandra"
       },
       "dueDate": "21 August 2019",
       "contextText": "<p>This slideshow is about MindTickle Glossary of Terms. Record on the two slides assigned about all the terms used. This will help new joinees to understand all the terms used in the platform and help them in understanding all the flows and stakeholders better. This will help in onboarding and getting fluent with the platform faster and begin their work.</p><p>Companies across a wide range of industries use MindTickle’s innovative capabilities for on-demand, online training, bite-sized mobile updates, gamification-based learning, coaching, and role-play to ensure world-class sales performance.</p>",
@@ -224,13 +226,13 @@
           "thumbPath": "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/salted_dark_chocolate_16338_16x9.jpg"
         }
       ],
-      "type": "RECORD_ONLY",
+      "type": "VOSS_RECORD_MULTIPLE_SLIDES",
       "subTasks": {
         "data": [
           {
             "id": "1",
             "thumbnailSrc": "https://picsum.photos/224/128",
-            "status": "APPROVAL_PENDING",
+            "status": "TASK_SUBMITTED",
             "assignee": {
               "id": "123"
             }
@@ -238,7 +240,7 @@
           {
             "id": "2",
             "thumbnailSrc": "https://picsum.photos/224/128",
-            "status": "DECLINED",
+            "status": "TASK_DECLINED",
             "assignee": {
               "id": "123"
             }
@@ -246,7 +248,7 @@
           {
             "id": "3",
             "thumbnailSrc": "https://picsum.photos/224/128",
-            "status": "APPROVAL_PENDING",
+            "status": "TASK_SUBMITTED",
             "assignee": {
               "id": "123"
             }
@@ -254,7 +256,7 @@
           {
             "id": "4",
             "thumbnailSrc": "https://picsum.photos/224/128",
-            "status": "DECLINED",
+            "status": "TASK_DECLINED",
             "assignee": {
               "id": "123"
             }
@@ -278,7 +280,7 @@
           {
             "id": "7",
             "thumbnailSrc": "https://picsum.photos/224/128",
-            "status": "APPROVAL_PENDING",
+            "status": "TASK_SUBMITTED",
             "assignee": {
               "id": "123"
             }
@@ -286,7 +288,7 @@
           {
             "id": "8",
             "thumbnailSrc": "https://picsum.photos/224/128",
-            "status": "DECLINED",
+            "status": "TASK_DECLINED",
             "assignee": {
               "id": "123"
             }
@@ -294,34 +296,39 @@
         ],
         "total": 8
       },
-      "status": "RECORDING_PENDING",
+      "status": "TASK_YET_TO_START",
       "declinedOn": 1568363986952,
       "reason": "ghjkl",
-      "drafts": [
-        {
-          "id": "0",
-          "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1570168842747.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDE2ODg0Mjc0Ny53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwMTgzMjU2fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=BZdR4REZ8jE2NGi4~L3leU9d~TaTnzs1XnNr~tS19K4uzaRJws1HuCDRzI0pexkxmG-AEXhnQtV~8yCh-lHMGyNXn2ltLWA88AtRhYV4nCqs3j1HSf8bDmYRiK5adxdzKzmGVKe7Eg1naPrxt0Ntof3zGRzCrvL2poP4Hax2DN0_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
-        },
-        {
-          "id": "1",
-          "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/2/audio/1570171055124.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzIvYXVkaW8vMTU3MDE3MTA1NTEyNC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwMTg1NDYyfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=HsxCup-CyEHeV0Wrsy5JoYX5ODO7F8hRF~34BGmQvQUrFUXOV9A6DsgK~7y2rduYDt8RzMLyxNPl-HgzlDtprrPOn~vE7Kvr~9mmlirKsoXcLe7GLS~9xkG1DN1XL5OcTepseiPanNIyg6IMXW-EXaPcDgleLKF3bvOGNOp9TdQ_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
-        }
-      ]
+      "drafts": {
+        "total": 2,
+        "data": [
+          {
+            "id": "0",
+            "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1570168842747.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDE2ODg0Mjc0Ny53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwMTgzMjU2fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=BZdR4REZ8jE2NGi4~L3leU9d~TaTnzs1XnNr~tS19K4uzaRJws1HuCDRzI0pexkxmG-AEXhnQtV~8yCh-lHMGyNXn2ltLWA88AtRhYV4nCqs3j1HSf8bDmYRiK5adxdzKzmGVKe7Eg1naPrxt0Ntof3zGRzCrvL2poP4Hax2DN0_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+          },
+          {
+            "id": "1",
+            "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/2/audio/1570171055124.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzIvYXVkaW8vMTU3MDE3MTA1NTEyNC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwMTg1NDYyfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=HsxCup-CyEHeV0Wrsy5JoYX5ODO7F8hRF~34BGmQvQUrFUXOV9A6DsgK~7y2rduYDt8RzMLyxNPl-HgzlDtprrPOn~vE7Kvr~9mmlirKsoXcLe7GLS~9xkG1DN1XL5OcTepseiPanNIyg6IMXW-EXaPcDgleLKF3bvOGNOp9TdQ_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+          }
+        ]
+      }
     },
     {
       "id": "4",
       "name": "MindTickle Glossary of Terms",
       "assetType": "recordOnly",
       "assignedBy": {
-        "name": "Kakul Chandra"
+        "displayName": "Kakul Chandra"
       },
       "assignedTo": {
-        "name": "Ishan Saxena",
+        "displayName": "Ishan Saxena",
         "id": "123123"
       },
       "dueDate": "21 August 2019",
-      "contextText": "<p>This slideshow is about MindTickle Glossary of Terms. Record on the two slides assigned about all the terms used. This will help new joinees to understand all the terms used in the platform and help them in understanding all the flows and stakeholders better. This will help in onboarding and getting fluent with the platform faster and begin their work.</p><p>Companies across a wide range of industries use MindTickle’s innovative capabilities for on-demand, online training, bite-sized mobile updates, gamification-based learning, coaching, and role-play to ensure world-class sales performance.</p>",
-      "instructionText": "<ol><li>Upload and record on two slides about all the terms used</li> <li>Keeps all the terms in bullet points</li> <li>Talk briefly about each of the points with an example</li> <li>Spend not more the 2 min on each slide</li> <li>Please use illustrations and relevant images in all the slides</li><li>A compelling introduction</li><li>Offer a body of evidence</li><li>Sum up with key takeaways</li></ol>",
+      "instruction": {
+        "context": "<p>This slideshow is about MindTickle Glossary of Terms. Record on the two slides assigned about all the terms used. This will help new joinees to understand all the terms used in the platform and help them in understanding all the flows and stakeholders better. This will help in onboarding and getting fluent with the platform faster and begin their work.</p><p>Companies across a wide range of industries use MindTickle’s innovative capabilities for on-demand, online training, bite-sized mobile updates, gamification-based learning, coaching, and role-play to ensure world-class sales performance.</p>",
+        "instructionSteps": "<ol><li>Upload and record on two slides about all the terms used</li> <li>Keeps all the terms in bullet points</li> <li>Talk briefly about each of the points with an example</li> <li>Spend not more the 2 min on each slide</li> <li>Please use illustrations and relevant images in all the slides</li><li>A compelling introduction</li><li>Offer a body of evidence</li><li>Sum up with key takeaways</li></ol>"
+      },
       "attachments": [
         {
           "id": 1,
@@ -348,8 +355,11 @@
           "thumbPath": "https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/salted_dark_chocolate_16338_16x9.jpg"
         }
       ],
-      "type": "RECORD_ONLY",
-      "status": "RECORDING_PENDING",
+      "subTasks": [
+        "fasdjjf"
+      ],
+      "type": "VOSS_RECORD_MULTIPLE_SLIDES",
+      "status": "TASK_YET_TO_START",
       "declinedOn": 1568363986952,
       "reason": "ghjkl"
     },
@@ -359,14 +369,17 @@
         "id": "111",
         "src": "https://placedog.net/300/133/a"
       },
-      "drafts": [
-        {
-          "id": "0",
-          "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1570168842747.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDE2ODg0Mjc0Ny53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwMTgzMjU2fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=BZdR4REZ8jE2NGi4~L3leU9d~TaTnzs1XnNr~tS19K4uzaRJws1HuCDRzI0pexkxmG-AEXhnQtV~8yCh-lHMGyNXn2ltLWA88AtRhYV4nCqs3j1HSf8bDmYRiK5adxdzKzmGVKe7Eg1naPrxt0Ntof3zGRzCrvL2poP4Hax2DN0_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
-        }
-      ],
+      "drafts": {
+        "total": 1,
+        "data": [
+          {
+            "id": "0",
+            "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1570168842747.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDE2ODg0Mjc0Ny53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcwMTgzMjU2fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=BZdR4REZ8jE2NGi4~L3leU9d~TaTnzs1XnNr~tS19K4uzaRJws1HuCDRzI0pexkxmG-AEXhnQtV~8yCh-lHMGyNXn2ltLWA88AtRhYV4nCqs3j1HSf8bDmYRiK5adxdzKzmGVKe7Eg1naPrxt0Ntof3zGRzCrvL2poP4Hax2DN0_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+          }
+        ]
+      },
       "selectedDraft": "0",
-      "status": "DRAFT_RECORDED",
+      "status": "TASK_IN_PROGRESS",
       "assignee": {
         "id": "123"
       }
@@ -382,25 +395,28 @@
             "id": "111",
             "src": "https://placedog.net/300/133/a"
           },
-          "drafts": [
-            {
-              "id": "0",
-              "url": "https://cf-ap2.mindtickle.com/944147212454530362/user/420462459a487e67/test_drafts_vos_cc/1/audio/1570613981750.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tLzk0NDE0NzIxMjQ1NDUzMDM2Mi91c2VyLzQyMDQ2MjQ1OWE0ODdlNjcvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDYxMzk4MTc1MC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTczMjA1OTkzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=Q0FDry2ao4n~l0jJ7mnAn3y9KD8v60LjM5KPkUYsyVquhFqXQbSkkB-Fdfr3WW6nHf2dobo17Nrrjil~2alkWIRXnWGCWspNNCwsseBTCOzyIoMIjqmzhTyHMrvKgRQB1OT1NiSghnnVCmBHrP0uGfmW6W8zd70NJLxAVDQ6qqs_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
-            },
-            {
-              "id": "1",
-              "url": "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Algorithms.mp3"
-            }
-          ],
+          "drafts": {
+            "total": 1,
+            "data": [
+              {
+                "id": "0",
+                "url": "https://cf-ap2.mindtickle.com/944147212454530362/user/420462459a487e67/test_drafts_vos_cc/1/audio/1570613981750.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tLzk0NDE0NzIxMjQ1NDUzMDM2Mi91c2VyLzQyMDQ2MjQ1OWE0ODdlNjcvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDYxMzk4MTc1MC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTczMjA1OTkzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=Q0FDry2ao4n~l0jJ7mnAn3y9KD8v60LjM5KPkUYsyVquhFqXQbSkkB-Fdfr3WW6nHf2dobo17Nrrjil~2alkWIRXnWGCWspNNCwsseBTCOzyIoMIjqmzhTyHMrvKgRQB1OT1NiSghnnVCmBHrP0uGfmW6W8zd70NJLxAVDQ6qqs_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+              },
+              {
+                "id": "1",
+                "url": "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Algorithms.mp3"
+              }
+            ]
+          },
           "selectedDraft": "0",
-          "status": "RECORDING_PENDING",
+          "status": "TASK_YET_TO_START",
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
-            "id": "123",
-            "name": "Ishan Saxena"
+            "id": "377a4635dec72353",
+            "displayName": "Ishan Saxena"
           },
           "submissions": [
             {
@@ -414,17 +430,17 @@
             "id": "113",
             "src": "https://placedog.net/300/133/b"
           },
-          "status": "RECORDING_PENDING",
+          "status": "TASK_YET_TO_START",
           "assignee": {
             "id": "123"
           },
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
-            "id": "123",
-            "name": "Ishan Saxena"
+            "id": "377a4635dec72353",
+            "displayName": "Ishan Saxena"
           }
         },
         {
@@ -433,17 +449,17 @@
             "id": "114",
             "src": "https://placedog.net/300/133/c"
           },
-          "status": "RECORDING_PENDING",
+          "status": "TASK_YET_TO_START",
           "assignee": {
             "id": "1234"
           },
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
-            "id": "123",
-            "name": "Ishan Saxena"
+            "id": "48ea5df6151c35c0",
+            "displayName": "Ishan Saxena"
           }
         },
         {
@@ -452,18 +468,18 @@
             "id": "115",
             "src": "https://placedog.net/300/133/d"
           },
-          "status": "APPROVAL_PENDING",
+          "status": "TASK_SUBMITTED",
           "submittedOn": 1568363986952,
           "assignee": {
             "id": "123"
           },
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
-            "id": "123",
-            "name": "Ishan Saxena"
+            "id": "420462459a487e67",
+            "displayName": "Ishan Saxena"
           }
         },
         {
@@ -472,18 +488,18 @@
             "id": "116",
             "src": "https://placedog.net/300/133/e"
           },
-          "status": "DECLINED",
+          "status": "TASK_DECLINED",
           "declinedOn": 1568363986952,
           "assignee": {
             "id": "123"
           },
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
-            "id": "123",
-            "name": "Ishan Saxena"
+            "id": "420462459a487e67",
+            "displayName": "Ishan Saxena"
           }
         },
         {
@@ -499,11 +515,11 @@
           },
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
             "id": "123",
-            "name": "Ishan Saxena"
+            "displayName": "Nirav Doshi"
           }
         },
         {
@@ -512,18 +528,18 @@
             "id": "118",
             "src": "https://placedog.net/300/133/g"
           },
-          "status": "APPROVAL_PENDING",
+          "status": "TASK_SUBMITTED",
           "submittedOn": 1568363986952,
           "assignee": {
             "id": "123"
           },
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
             "id": "123",
-            "name": "Ishan Saxena"
+            "displayName": "Nirav Doshi"
           }
         },
         {
@@ -532,18 +548,18 @@
             "id": "119",
             "src": "https://placedog.net/300/133/h"
           },
-          "status": "DECLINED",
+          "status": "TASK_DECLINED",
           "declinedOn": 1568363986952,
           "assignee": {
             "id": "123"
           },
           "assignedBy": {
             "id": 2314,
-            "name": "Prashank Gupta"
+            "displayName": "Prashank Gupta"
           },
           "assignedTo": {
-            "id": "123",
-            "name": "Ishan Saxena"
+            "id": "420462459a487e67",
+            "displayName": "Ishan Saxena"
           }
         }
       ],
@@ -566,31 +582,32 @@
         "id": "111",
         "src": "https://placedog.net/300/133/a"
       },
-      "drafts": [
-        {
-          "id": "0",
-          "url": "https://cf-ap2.mindtickle.com/944147212454530362/user/420462459a487e67/test_drafts_vos_cc/1/audio/1570613981750.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tLzk0NDE0NzIxMjQ1NDUzMDM2Mi91c2VyLzQyMDQ2MjQ1OWE0ODdlNjcvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MDYxMzk4MTc1MC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTczMjA1OTkzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=Q0FDry2ao4n~l0jJ7mnAn3y9KD8v60LjM5KPkUYsyVquhFqXQbSkkB-Fdfr3WW6nHf2dobo17Nrrjil~2alkWIRXnWGCWspNNCwsseBTCOzyIoMIjqmzhTyHMrvKgRQB1OT1NiSghnnVCmBHrP0uGfmW6W8zd70NJLxAVDQ6qqs_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
-        },
-        {
-          "id": "1",
-          "url": "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Algorithms.mp3"
-        }
-      ],
+      "drafts": {
+        "total": 1,
+        "data": [
+          {
+            "id": "0.870791780398875",
+            "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/3/audio/1571635800510.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzMvYXVkaW8vMTU3MTYzNTgwMDUxMC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxNjUwMjA1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=U9OpZfBAP5xkF9JTO2GYnH4bt3uRDeCTtvYq6pwIdsx3n~PCABoODA95IMb4PL3UYl3HpsyHxkj~iG7FVWYm-~41bsO8RN7Zc3OxaG9T2JJ~ZLHQfhbI5plm-qqeFJoXIxb02wFhdDHpeINEBMwqUNI9I4ytco8u-kuJqsOqVj4_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+          }
+        ]
+      },
       "selectedDraft": "1",
-      "status": "RECORDING_PENDING",
+      "status": "TASK_DECLINED",
       "assignedBy": {
         "id": 2314,
-        "name": "Prashank Gupta"
+        "displayName": "Prashank Gupta"
       },
       "assignedTo": {
-        "id": "123",
-        "name": "Ishan Saxena"
+        "id": "377a4635dec72353",
+        "displayName": "Ishan Saxena"
       },
       "submissions": [
         {
           "id": "0"
         }
-      ]
+      ],
+      "declinedOn": 1571636473560,
+      "reason": "LOL"
     },
     {
       "id": "6",
@@ -598,22 +615,25 @@
         "id": "113",
         "src": "https://cf-ap1.mindtickle.com/benaam/1571305959491PresentationsTips.ppt/imagified/out_1.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMzIwODA1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=CG28hv8ZiC-Pgrhc5cObsSoKt0lTORS21FDCkJPSODJU8UqQ3vNDNTLQ3C65pNCjKJS7t~GEiZVdx1MzEjD6uKcPRBt4OSo6yS7L8F9O6M8BCh8r~ktBcGfDrdzm5eTj5uWojOjDs1HFiq8VDRCKhdCNzFNPNTaD2an4WqflqOA_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
-      "status": "DECLINED",
+      "status": "TASK_DECLINED",
       "assignedBy": {
         "id": 2314,
-        "name": "Prashank Gupta"
+        "displayName": "Prashank Gupta"
       },
       "assignedTo": {
         "id": "123",
-        "name": "Ishan Saxena"
+        "displayName": "Ishan Saxena"
       },
       "declinedOn": 1571306870043,
       "reason": "fdghjkl",
-      "drafts": [
-        {
-          "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1571209570321.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MTIwOTU3MDMyMS53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjIzOTczfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=IHMEJVn1B4-IIjl8NPP1s9YTmj6DcdB-ALvF3x8rMHLPz4UDrQmgN2LTz41uPmsoykoCsQMiS~gtoagGRMvc0melQmnYgKHiKQ53Lb6nTABTZSZL4xW-o15CXQeW~AZEWt31bRe6hNLfM-qE2YVvpbPykhDv7mgVUup~HKfuSVk_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
-        }
-      ],
+      "drafts": {
+        "total": 1,
+        "data": [
+          {
+            "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1571209570321.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MTIwOTU3MDMyMS53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjIzOTczfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=IHMEJVn1B4-IIjl8NPP1s9YTmj6DcdB-ALvF3x8rMHLPz4UDrQmgN2LTz41uPmsoykoCsQMiS~gtoagGRMvc0melQmnYgKHiKQ53Lb6nTABTZSZL4xW-o15CXQeW~AZEWt31bRe6hNLfM-qE2YVvpbPykhDv7mgVUup~HKfuSVk_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+          }
+        ]
+      },
       "submittedOn": 1571209627692
     },
     {
@@ -622,7 +642,7 @@
         "id": "114",
         "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_20.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
-      "status": "DECLINED",
+      "status": "TASK_DECLINED",
       "assignee": {
         "id": "1234"
       },
@@ -635,15 +655,15 @@
         "id": "115",
         "src": "https://placedog.net/300/133/d"
       },
-      "status": "APPROVAL_PENDING",
+      "status": "TASK_SUBMITTED",
       "submittedOn": 1568363986952,
       "assignedBy": {
         "id": 2314,
-        "name": "Prashank Gupta"
+        "displayName": "Prashank Gupta"
       },
       "assignedTo": {
-        "id": "123",
-        "name": "Ishan Saxena"
+        "id": "377a4635dec72353",
+        "displayName": "Ishan Saxena"
       }
     },
     {
@@ -652,15 +672,15 @@
         "id": "116",
         "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_6.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
-      "status": "DECLINED",
+      "status": "TASK_DECLINED",
       "declinedOn": 1568363986952,
       "assignedBy": {
         "id": 2314,
-        "name": "Prashank Gupta"
+        "displayName": "Prashank Gupta"
       },
       "assignedTo": {
         "id": "123",
-        "name": "Ishan Saxena"
+        "displayName": "Ishan Saxena"
       }
     },
     {
@@ -681,15 +701,15 @@
         "id": "118",
         "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_23.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
-      "status": "APPROVAL_PENDING",
+      "status": "TASK_SUBMITTED",
       "submittedOn": 1568363986952,
       "assignedBy": {
         "id": 2314,
-        "name": "Prashank Gupta"
+        "displayName": "Prashank Gupta"
       },
       "assignedTo": {
         "id": "123",
-        "name": "Ishan Saxena"
+        "displayName": "Ishan Saxena"
       }
     },
     {
@@ -698,15 +718,15 @@
         "id": "119",
         "src": "https://cf-ap1.mindtickle.com/benaam/1571217492097Modern_looking_PPT.pptx/imagified/out_12.png?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAxLm1pbmR0aWNrbGUuY29tL2JlbmFhbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTcxMjMyMDAzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=cKSUzL5WvPe1vim8fX4a1PlFyhDzo4zp9ufn5TjhUSeQn5CELglUQYrbMmUm7K0POryESu4kPrcAexTIvFU~1KIvVtYTZpsoxbVinh6PKIfyKJFwCygqjFWrwwgdwSRusYsuVEalIKQVqJ~KUhkQh3CYC25yNsWTI~d8hFOcA0M_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
       },
-      "status": "DECLINED",
+      "status": "TASK_DECLINED",
       "declinedOn": 1568363986952,
       "assignedBy": {
         "id": 2314,
-        "name": "Prashank Gupta"
+        "displayName": "Prashank Gupta"
       },
       "assignedTo": {
         "id": "123",
-        "name": "Ishan Saxena"
+        "displayName": "Ishan Saxena"
       }
     }
   ],
@@ -717,24 +737,119 @@
         "id": "113",
         "src": "https://placedog.net/300/133/b"
       },
-      "status": "DRAFT_RECORDED",
+      "status": "TASK_IN_PROGRESS",
       "assignedBy": {
         "id": 2314,
-        "name": "Prashank Gupta"
+        "displayName": "Prashank Gupta"
       },
       "assignedTo": {
         "id": "123",
-        "name": "Ishan Saxena"
+        "displayName": "Ishan Saxena"
       },
       "selectedDraft": "0",
       "declinedOn": 1570982018799,
       "reason": "asldfjdsa",
-      "drafts": [
-        {
-          "id": "0",
-          "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1571142110858.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MTE0MjExMDg1OC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTczNzM0MTEzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=J1BUMv0BGoRt-5OjPVDgNiyISgd9oRKutfaMTM6meMrKcnWYQZ2szIf08Uyv0vsD2lybeeKvHURuw~Y070pmgYhE2la3cvk3WJGTn1rbr5QCjeHiCm2SaMT6MToQYqyRCLqHp-VHRUl94-AuA7UJ94SCYzknJV-E1-k2DKymVCI_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
-        }
-      ]
+      "drafts": {
+        "total": 1,
+        "data": [
+          {
+            "id": "0",
+            "url": "https://cf-ap2.mindtickle.com/benaam/user/377a4635dec72353/test_drafts_vos_cc/1/audio/1571142110858.webm/mp3/1.mp3?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vY2YtYXAyLm1pbmR0aWNrbGUuY29tL2JlbmFhbS91c2VyLzM3N2E0NjM1ZGVjNzIzNTMvdGVzdF9kcmFmdHNfdm9zX2NjLzEvYXVkaW8vMTU3MTE0MjExMDg1OC53ZWJtL21wMy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTczNzM0MTEzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTQ0NDk3NzExNn19fV19&Signature=J1BUMv0BGoRt-5OjPVDgNiyISgd9oRKutfaMTM6meMrKcnWYQZ2szIf08Uyv0vsD2lybeeKvHURuw~Y070pmgYhE2la3cvk3WJGTn1rbr5QCjeHiCm2SaMT6MToQYqyRCLqHp-VHRUl94-AuA7UJ94SCYzknJV-E1-k2DKymVCI_&Key-Pair-Id=APKAJRHSQBGT5CW7P2CA"
+          }
+        ]
+      }
+    }
+  ],
+  "adddraft": [
+    {
+      "pollId": "1",
+      "id": 1
+    },
+    {
+      "pollId": "1",
+      "id": 2
+    },
+    {
+      "pollId": "1",
+      "id": 3
+    },
+    {
+      "pollId": "1",
+      "id": 4
+    },
+    {
+      "pollId": "1",
+      "id": 5
+    },
+    {
+      "pollId": "1",
+      "s3Path": "benaam/user/377a4635dec72353/test_drafts_vos_cc/3/audio/1573456663276.webm",
+      "id": 6
+    },
+    {
+      "pollId": "1",
+      "s3Path": "benaam/user/377a4635dec72353/test_drafts_vos_cc/3/audio/1573457171488.webm",
+      "id": 7
+    },
+    {
+      "pollId": "1",
+      "id": 8
+    },
+    {
+      "pollId": "1",
+      "id": 9
+    },
+    {
+      "pollId": "1",
+      "id": 10
+    },
+    {
+      "pollId": "1",
+      "id": 11
+    },
+    {
+      "pollId": "1",
+      "id": 12
+    },
+    {
+      "pollId": "1",
+      "id": 13
+    },
+    {
+      "pollId": "1",
+      "id": 14
+    },
+    {
+      "pollId": "1",
+      "id": 15
+    },
+    {
+      "pollId": "1",
+      "id": 16
+    },
+    {
+      "pollId": "1",
+      "id": 17
+    },
+    {
+      "pollId": "1",
+      "id": 18
+    },
+    {
+      "pollId": "1",
+      "id": 19
+    },
+    {
+      "pollId": "1",
+      "id": 20
+    }
+  ],
+  "poll": [
+    {
+      "id": "1",
+      "type": "MEDIA",
+      "status": "PROCESSING",
+      "data": ""
     }
   ]
 }
